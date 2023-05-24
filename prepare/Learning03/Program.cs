@@ -24,17 +24,15 @@ class Program
 
 
 
-// I used the sample solution to help me through this a lot since 
+// I heavily relied on the sample solution to help me through this a lot since 
 // I had no idea what to do, exactly. I now see that through this code, I
-// can utilize the "f1" into the first Fraction constructor (1/1 within the 
-// Fraction class), "f2" into the Second fraction constructor
-// ([wholenumber]/1 within the Fraction class), and so on. 
+// can utilize the "f1" within this Program.cs file into the first Fraction constructor (1/1 within the 
+// Fraction class), "f2" into the Second fraction constructor ([wholenumber]/1 within the Fraction class), and so on. 
 
 
 
-// The notes did go over this, but I ended up gaining more questions than answers. All 
-// it did was confuse me since I am still new to coding. Seeing how this code ACTUALLY
-// plays out has helped me a lot more with this learning process.
+// The notes did go over this, but all it did was confuse me since I am still new to coding. I was scratching my 
+// head for hours... However, seeing how this code ACTUALLY plays out has helped me a lot more with this learning process.
 
 
 
@@ -44,12 +42,13 @@ class Program
 
 
 
-// Anyways, sorry for the rant. I never wanted to plagarize since that is never my intention, but 
+// Anyways, sorry for the rant. I never wanted to technically 'plagarize' since that is never my intention, but 
 // seeing it play out has helped me out a lot. After all, the intention was to learn, right?
 
 
 
 // Feel free to message me if this is something you don't want for me to do in the future. This method 
 // of learning helps me, but I don't know if this is something that you as the teacher want me to do. 
-// Regardless of your answer, I will oblige. 
+// Regardless of your answer, I will oblige. Just don't grade this particular instance too harshly if 
+// you don't want me doing this haha.
 
