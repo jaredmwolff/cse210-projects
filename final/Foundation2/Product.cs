@@ -2,36 +2,36 @@ using System;
 
 public class Product
 {
-    private string name;
-    private int productId;
-    private double price;
-    private int quantity;
+    private string _name;
+    private int _productId;
+    private double _price;
+    private int _quantity;
 
     public Product(string name, int productId, double price, int quantity)
     {
-        this.name = name;
-        this.productId = productId;
-        this.price = price;
-        this.quantity = quantity;
+        this._name = name;
+        this._productId = productId;
+        this._price = price;
+        this._quantity = quantity;
     }
 
     public double GetPrice()
     {
-        return this.price * this.quantity;
+        return this._price * this._quantity;
     }
 
     public string GetName()
     {
-        return this.name;
+        return this._name;
     }
 
     public int GetProductId()
     {
-        return this.productId;
+        return this._productId;
     }
 
     public int GetQuantity()
     {
-        return this.quantity;
+        return this._quantity;
     }
 }

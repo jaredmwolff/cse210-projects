@@ -2,27 +2,27 @@ using System;
 
 public class Customer
 {
-    private string name;
-    private Address address;
+    private string _name;
+    private Address _address;
 
     public Customer(string name, Address address)
     {
-        this.name = name;
-        this.address = address;
+        this._name = name;
+        this._address = address;
     }
 
     public bool InUSA()
     {
-        return this.address.InUSA();
+        return this._address.InUSA();
     }
 
     public string GetName()
     {
-        return this.name;
+        return this._name;
     }
 
     public Address GetAddress()
     {
-        return this.address;
+        return this._address;
     }
 }
