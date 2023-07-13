@@ -30,9 +30,9 @@ class Program
         foreach (Video video in videos)
         {
             Console.WriteLine("");
-            Console.WriteLine("Title: " + video.Title);
-            Console.WriteLine("Author: " + video.Author);
-            Console.WriteLine("Length: " + video.Length + " seconds");
+            Console.WriteLine("Title: " + video._title);
+            Console.WriteLine("Author: " + video._author);
+            Console.WriteLine("Length: " + video._length + " seconds");
             Console.WriteLine("Number of Comments: " + video.GetNumberOfComments());
             Console.WriteLine();
             Console.WriteLine("Comments:");
@@ -40,7 +40,7 @@ class Program
 
             foreach (Comment comment in video.Comments)
             {
-                Console.WriteLine("- " + comment.Name + ": " + comment.Text);
+                Console.WriteLine("- " + comment._name + ": " + comment._text);
             }
 
 
