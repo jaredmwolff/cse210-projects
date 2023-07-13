@@ -1,6 +1,6 @@
 using System;
 
-public class OutdoorGathering : Event
+public class OutdoorGathering : Event 
 {
     private string _weatherForecast;
 

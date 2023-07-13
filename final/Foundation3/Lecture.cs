@@ -1,7 +1,7 @@
 using System;
 public class Lecture : Event
 {
-    private string _speakerName;
+    private string _speakerName;  
     private int _capacity;
 
     public Lecture(string title, string description, DateTime dateTime, Address address, string speakerName, int capacity) : base(title, description, dateTime, address)
