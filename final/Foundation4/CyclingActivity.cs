@@ -2,14 +2,14 @@ public class CyclingActivity : Activity
 {
     private double _speed;
 
-    public CyclingActivity(DateTime date, int durationInMinutes, double speed) : base(date, durationInMinutes)
+    public CyclingActivity(DateTime date, int howManyMinutes, double speed) : base(date, howManyMinutes)
     {
         this._speed = speed;
     }
 
     public override double GetDistance()
     {
-        return _speed * _durationInMinutes / 60;
+        return _speed * _howManyMinutes / 60;
     }
 
     public override double GetSpeed()

@@ -2,7 +2,7 @@ public class SwimmingActivity : Activity
 {
     private int _laps;
 
-    public SwimmingActivity(DateTime date, int durationInMinutes, int laps) : base(date, durationInMinutes)
+    public SwimmingActivity(DateTime date, int howManyMinutes, int laps) : base(date, howManyMinutes)
     {
         this._laps = laps;
     }
@@ -14,12 +14,12 @@ public class SwimmingActivity : Activity
 
     public override double GetSpeed()
     {
-        return GetDistance() / _durationInMinutes * 60;
+        return GetDistance() / _howManyMinutes * 60;
     }
 
     public override double GetPace()
     {
-        return _durationInMinutes / GetDistance();
+        return _howManyMinutes / GetDistance();
     }
 
     public override string GetSummary()

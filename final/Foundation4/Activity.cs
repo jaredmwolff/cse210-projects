@@ -1,12 +1,12 @@
 public abstract class Activity
 {
     private DateTime _date;
-    public int _durationInMinutes;
+    public int _howManyMinutes;
 
-    public Activity(DateTime date, int durationInMinutes)
+    public Activity(DateTime date, int howManyMinutes)
     {
         this._date = date;
-        this._durationInMinutes = durationInMinutes;
+        this._howManyMinutes = howManyMinutes;
     }
 
     public virtual double GetDistance()
@@ -26,6 +26,6 @@ public abstract class Activity
 
     public virtual string GetSummary()
     {
-        return $"{_date:d} {GetType().Name} ({_durationInMinutes} min)";
+        return $"{GetType().Name} on {_date:d} ({_howManyMinutes} min)";
     }
 }
